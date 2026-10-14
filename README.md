@@ -1,2 +1,2 @@
-# Campe-es-do-lol
+# Campeoes-do-lol
 site para mostra campeões do lol
