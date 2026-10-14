@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campeões de League of Legends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>⚔️ Campeões de <span>League of Legends</span></h1>
+    <p>Explore alguns dos campeões mais icônicos de Runeterra.</p>
+  </header>
+
+  <main>
+    <section class="controles">
+      <input type="search" id="busca" placeholder="Buscar campeão..." aria-label="Buscar campeão">
+      <div class="filtros" id="filtros"></div>
+      <label class="fav-toggle"><input type="checkbox" id="soFavoritos"> Só favoritos ❤</label>
+    </section>
+    <p id="contador" class="contador"></p>
+    <section id="grade" class="grade"></section>
+  </main>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-conteudo" role="dialog" aria-modal="true">
+      <button id="fechar" class="fechar" aria-label="Fechar">✕</button>
+      <div id="detalhes"></div>
+    </div>
+  </div>
+
+  <footer>Projeto acadêmico • Imagens © Riot Games (Data Dragon)</footer>
+  <script src="script.js"></script>
+</body>
+</html>
